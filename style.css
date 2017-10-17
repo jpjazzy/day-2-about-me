@@ -1,0 +1,56 @@
+/* App styles */
+* {
+  font-family: "Times New Roman";
+}
+
+header {
+  background: #444;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Header content */
+header > h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+header > p {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+header > img {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+/* All other content */
+body {
+  background-image: url('https://d1zqayhc1yz6oo.cloudfront.net/f804600624e43f552eab4d5959f42ee0.png');
+  background-position: right;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 5px;
+  background: #999;
+}
+
+img {
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+  height: 300px;
+}
+
+img:hover {
+    opacity: 1;
+    filter: alpha(opacity=80); /* For IE8 and earlier */
+}
