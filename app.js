@@ -1,4 +1,3 @@
-/*
 'use strict';
 // Main informational
 alert('HI! Welcome to my portfolio webpage. You will learn a lot about me here but just to make things a little bit more fun I wanted to add a guessing game. I will ask you a few questions about me and just answer yes or no (or Y/N). Have fun!');
@@ -65,5 +64,3 @@ if (home === 'YES' || home === 'Y'){
 
 //End notification to user
 alert('Well it was fun playing with you but that\'s all I got for now. I hope you enjoyed getting to know me and if you want to know more, feel free to read my portfolio or reach out in person. I love meeting new people and hope I get to know you all very well before class ends.');
-
-*/
