@@ -29,7 +29,7 @@ header > img {
 /* All other content */
 body {
   background-image: url('https://d1zqayhc1yz6oo.cloudfront.net/f804600624e43f552eab4d5959f42ee0.png');
-  background-position: right;
+  background-position: right bottom;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -38,7 +38,7 @@ p {
   margin-bottom: 20px;
 }
 
-h2 {
+summary {
   font-size: 30px;
   margin-bottom: 5px;
   text-align:justify;
