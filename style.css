@@ -4,8 +4,8 @@
 }
 
 header {
-  background: linear-gradient(#555, #FFF);
-  color: #fff;
+  background: linear-gradient(#AAA, #FFF);
+  color: #000;
   padding: 20px;
   text-align: center;
 }
@@ -32,6 +32,7 @@ body {
   background-position: right bottom;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-size: 200px;
 }
 
 p {
@@ -42,7 +43,7 @@ summary {
   font-size: 30px;
   margin-bottom: 5px;
   text-align:justify;
-  background: linear-gradient(#555, #FFF)
+  background: linear-gradient(#AAA, #FFF)
 }
 
 img {
