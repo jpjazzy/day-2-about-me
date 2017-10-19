@@ -3,14 +3,23 @@
 alert('HI! Welcome to my portfolio webpage. You will learn a lot about me here but just to make things a little bit more fun I wanted to add a guessing game. I will ask you a few questions about me and just answer yes or no (or Y/N). Have fun!');
 
 //Ask the user for their name
-var viewer = prompt('Before we get started. What\'s your name?');
-console.log('Visitor\'s name: ', viewer);
+
+//changing var viewer into a function
+
+function question(questionTxt) {
+  var result = prompt(questionTxt);
+  console.log('input:', result);
+  return result;
+}
+
+var viewer;
+viewer = question('Before we get started. What\'s your name?');
 alert('Thanks, ' + viewer + '!');
 
 // Question 1
-var hat = prompt(viewer + ', does Jeremy own a cool deadpool hat?');
+var hat;
+hat = question(viewer + ', does Jeremy own a cool deadpool hat?');
 hat = hat.toUpperCase();
-console.log('Deadpool hat: ', hat);
 
 if (hat === 'YES' || hat === 'Y'){
   alert('Damn right he does... Kappa. Good start, ' + viewer + '!');
