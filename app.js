@@ -63,4 +63,4 @@ if (home === 'YES' || home === 'Y'){
 }
 
 //End notification to user
-alert('Well it was fun playing with you but that\'s all I got for now. I hope you enjoyed getting to know me and if you want to know more, feel free to read my portfolio or reach out in person. I love meeting new people and hope I get to know you all very well before class ends.');
+alert('Well it was fun playing with you but that\'s all I got for now. I hope you enjoyed getting to know me and if you want to know more, feel free to read my portfolio or reach out in person. I love meeting new people and hope I get to know you all very well before class ends. Click on my sections to learn more.');
